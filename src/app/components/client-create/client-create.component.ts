@@ -10,9 +10,11 @@ import { ClientService } from 'src/app/services/client.service';
   styleUrls: ['./client-create.component.css'],
 })
 export class ClientCreateComponent implements OnInit {
+  maxDateMoment = new Date();
   createClientForm: FormGroup;
   submitted = false;
   loading = false;
+  
 
   constructor(
     private formBuilder: FormBuilder,
