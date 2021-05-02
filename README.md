@@ -1,6 +1,6 @@
 # SimpleRegister
-<img src="images/client_list.png" width="1280" height="720">
-<img src="images/client_create.png" width="1280" height="720">
+<img src="images/client_list.png" width="1280" height="360">
+<img src="images/client_create.png" width="1280" height="360">
 
 ## Definición
 Simple aplicativo de registro y visualización de clientes usando Cloud Firestore.
