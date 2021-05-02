@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~ngx-toastr/toastr';
+
 body{
     background: #8E2DE2;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #017cff80, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
