@@ -1,7 +1,43 @@
 <div class="container mt-4">
-    <div class="card">
-        <div class="card-body">
-            <span class="h3">Listado de clientes</span>
-        </div>
+  <div class="card">
+    <div class="card-body">
+      <span class="h3">Listado de clientes</span>
+      <button
+        class="btn btn-primary btn-lg float-right"
+        routerLink="/client-create"
+      >
+        <i class="fas fa-user-plus mr-2"></i>Agregar
+      </button>
+      <table class="table table-striped mt-5">
+        <thead>
+          <tr>
+            <th scope="col">Nombres</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Fecha de Nacimiento</th>
+            <th scope="col">Edad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Jhon</td>
+            <td>Coronel Bautista</td>
+            <td>Fecha de Nacimiento</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Jhon</td>
+            <td>Coronel Bautista</td>
+            <td>Fecha de Nacimiento</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Jhon</td>
+            <td>Coronel Bautista</td>
+            <td>Fecha de Nacimiento</td>
+            <td>20</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
+  </div>
 </div>

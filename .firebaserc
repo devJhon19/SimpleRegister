@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "simpleregister-ea1a1": {
+      "hosting": {
+        "SimpleRegister": [
+          "simpleregister-ea1a1"
+        ]
+      }
+    }
+  }
+}
